@@ -1,20 +1,30 @@
-bdefaultsm css
+bdefaultsm css v2.0
 ==============
 
-a normalize and a classless css theme built into one
+in my on-line wanderings i came across a github project called sakura made by a person name oxalorg. the idea being a classless css stylesheet to instantly give style to an html page that had nothing but vanilla html and no classes or ids or anything else
 
-all the normalize css i got from the normalize.css project on github here: 
+browsers all have this anyway. if you make an html document with text,your browser will style it according to its default values that have been assigned by the humans that make the browser
 
-github.com/necolas/normalize.css
+and i actually kind of like the default (default styles are basically the same from browser to browser)
 
-and my starting point for the rest i got from the sakura.css project here:
+sakura is an attempt to make a default style that looks a little bit better
 
-https://github.com/oxalorg/sakura
+the idea appeals to me. if i were developing my own browser and were able to make a default page containing all the typical html elements look however i want, how would i choose to make it look? how should a simple hello world! look?
 
-both of those are great. if you don't like my take on them, you should definitely check out those two
+bdefaultsm.css is my attempt at this
+
+## version 1 -> version 2
+
+at first i thought i'd combine a normalize css sheet with my changes to the sakura css sheet. what i was left with would be an opinionated css reset
+
+i don't think that's a good idea anymore as a reset or normalizer sheet has a different purpose than a classless style sheet. a normalizer is an attempt to fix default discrepencies between browsers, while a classless style sheet is an attempt to add some opinions to how html elements should look
+
+i've decided now to use a normalizer sheet and then build bdefaultsm on top of it. that way, i get the benefits of a resetter or normalizer while keeping my own style opinions separate. this might also encourage anyone looking to do the same to go about it in the same way that i have. css reset work is important, and should probably be separate from establishing default html styles
 
 ## opinionated
 
-this is a very opinionated thing. i have opinions!
+this is an opinionated thing. i have opinions!
 
-so at least to start i'm not including any cross browser stuff. maybe i'll add them later, but for right now i'm going to keep it as light and specific for my own usage as possible. i use chrome on desktop and safari on mobile, and i rarely move away from those two things. so for now i'm not going to worry about any styling that tries to accomodate for any other browsers. maybe that's lame of me, but like i said maybe i'll get to cross browser stuff later. i probably will
+## html
+
+the index.html page could also be an example of how i currently think a straightfoward html page should be structured

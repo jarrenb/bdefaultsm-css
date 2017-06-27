@@ -6,19 +6,18 @@
 /* ============================================= */
 
 /* html and body */
+/*
 html {
   font-size: 62.5%;
   font-family: sans-serif;
-  line-height: 1.15;
 }
 
 body {
   font-size: 1.8rem;
 }
-
-
-
+*/
 /* h tags */
+/*
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   font-weight: 700;
@@ -51,8 +50,9 @@ h5 {
 h6 {
   font-size: 1em; 
 }
-
+*/
 /* links */
+/*
 a {
   color: #0366d6;
   text-decoration: none;
@@ -61,8 +61,9 @@ a {
 a:hover {
   border-bottom: 2px solid #0366d6;
 }
-
+*/
 /* lists */
+/*
 ul {
   padding-left: 1.4em; 
 }
@@ -70,13 +71,15 @@ ul {
 li {
   margin-bottom: 0.4em; 
 }
-
+*/
 /* images */
+/*
 img {
   max-width: 100%; 
 }
-
+*/
 /* Pre and Code */
+/*
 pre {
   background-color: #f1f1f1;
   display: block;
@@ -96,8 +99,9 @@ pre > code {
   background-color: transparent;
   white-space: pre; 
 }
-
+*/
 /* Tables */
+/*
 table {
   border-collapse: collapse; 
 }
@@ -111,12 +115,12 @@ caption {
   text-align: left;
   font-weight: bold;
 }
-
+*/
 /* buttons, forms, and input */
+/*
 textarea, select, input[type] {
   color: #4a4a4a;
   padding: 6px 10px;
-  /* The 6px vertically centers text on FF, ignored by Webkit */
   margin-bottom: 10px;
   background-color: #f1f1f1;
   border: 1px solid #f1f1f1;
@@ -161,8 +165,9 @@ input[type="button"]:hover {
   color: white;
   outline: 0; 
 }
-
+*/
 /* disabled buttons should look kind of broken, and shouldn't do anything */
+/*
 .button[disabled], 
 button[disabled], 
 input[type="submit"][disabled], 
@@ -213,8 +218,10 @@ blockquote {
   padding-left: 1em;
   border-left: 3px solid black; 
 }
-
+*/
 /* widths */
+/*
 p, h1, h2, h3, h4, h5, h6, pre, code, blockquote, ol, ul, textarea {
   max-width: 28em;
 }
+*/
