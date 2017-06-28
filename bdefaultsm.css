@@ -5,23 +5,20 @@
 /* ==== on github here: ============================== */
 /* ==== https://github.com/jarrenb/bdefaultsm-css ==== */
 
+/* html & body */
 html {
   font-family: sans-serif;
 }
-/*
+
 body {
-  font-size: 1.8rem;
+  margin: 1em;
+  max-width: 650px;
 }
-*/
-/* h tags */
-/*
+
+/* h1, h2, h3, h4, h5, h6 */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   font-weight: 700;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  word-break: break-word;
-  hyphens: auto; 
 }
 
 h1 {
@@ -47,45 +44,34 @@ h5 {
 h6 {
   font-size: 1em; 
 }
-*/
-/* links */
-/*
-a {
-  color: #0366d6;
-  text-decoration: none;
-}
-  
-a:hover {
-  border-bottom: 2px solid #0366d6;
-}
-*/
+
 /* lists */
-/*
 ul {
-  padding-left: 1.4em; 
+  padding-left: 1.4em;
+}
+
+ol {
+  padding-left: 1.4em;
 }
 
 li {
   margin-bottom: 0.4em; 
 }
-*/
+
 /* images */
-/*
 img {
   max-width: 100%; 
 }
-*/
 
+/* pre & code */
 pre {
   background-color: #f1f1f1;
   display: block;
   padding: 1em;
   overflow-x: auto;
-  max-width: 650px;
 }
 
-/* Tables */
-/*
+/* tables */
 table {
   border-collapse: collapse; 
 }
@@ -99,9 +85,17 @@ caption {
   text-align: left;
   font-weight: bold;
 }
-*/
-/* buttons, forms, and input */
-/*
+
+/* buttons, forms, inputs, and links */
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+  
+a:hover {
+  border-bottom: 2px solid #0366d6;
+}
+
 textarea, select, input[type] {
   color: #4a4a4a;
   padding: 6px 10px;
@@ -109,7 +103,7 @@ textarea, select, input[type] {
   background-color: #f1f1f1;
   border: 1px solid #f1f1f1;
   box-shadow: none;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
   
 textarea:focus, select:focus, input[type]:focus {
@@ -149,9 +143,8 @@ input[type="button"]:hover {
   color: white;
   outline: 0; 
 }
-*/
+
 /* disabled buttons should look kind of broken, and shouldn't do anything */
-/*
 .button[disabled], 
 button[disabled], 
 input[type="submit"][disabled], 
@@ -176,7 +169,7 @@ input[type="button"][disabled]:hover {
 
 label, legend, fieldset {
   display: block;
-  margin-bottom: .5rem;
+  margin-bottom: .5em;
   font-weight: 600; 
 }
 
@@ -198,14 +191,7 @@ small, sub, sup {
 
 blockquote {
   font-style: italic;
-  margin-left: 1.5em;
+  margin-left: 0;
   padding-left: 1em;
   border-left: 3px solid black; 
 }
-*/
-/* widths */
-/*
-p, h1, h2, h3, h4, h5, h6, pre, code, blockquote, ol, ul, textarea {
-  max-width: 28em;
-}
-*/
