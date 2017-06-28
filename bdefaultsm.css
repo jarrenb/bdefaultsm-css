@@ -6,12 +6,11 @@
 /* ============================================= */
 
 /* html and body */
-/*
+
 html {
-  font-size: 62.5%;
   font-family: sans-serif;
 }
-
+/*
 body {
   font-size: 1.8rem;
 }
@@ -78,28 +77,15 @@ img {
   max-width: 100%; 
 }
 */
-/* Pre and Code */
-/*
+
 pre {
   background-color: #f1f1f1;
   display: block;
   padding: 1em;
-  overflow-x: auto; 
+  overflow-x: auto;
+  max-width: 650px;
 }
 
-code {
-  font-size: 0.9em;
-  padding: 0 0.5em;
-  background-color: #f1f1f1;
-  white-space: pre-wrap; 
-}
-
-pre > code {
-  padding: 0;
-  background-color: transparent;
-  white-space: pre; 
-}
-*/
 /* Tables */
 /*
 table {
