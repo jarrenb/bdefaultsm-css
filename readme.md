@@ -28,3 +28,11 @@ this is an opinionated thing. i have opinions!
 ## html
 
 the index.html page could also be an example of how i currently think a straightfoward html page should be structured
+
+## typography
+
+### font-size
+
+### line-height
+
+### space between elements
