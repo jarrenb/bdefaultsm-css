@@ -25,6 +25,18 @@ i've decided now to use a normalizer sheet and then build bdefaultsm on top of i
 
 this is an opinionated thing. i have opinions!
 
+## page width and centering
+
+there are two notable differences between bdefaultsm and sakura (another classless css sheet that caused me to do all this) and i assume other sheets like them
+
+### page width
+
+i've gone back and forth debating whether to implement basically a global max-width on the body or to just specify widths for each element specifically. i've decided to implement widths on elements specifically. i think this leaves documents more flexibility which is ultimately a better thing. for most elements that do have widths imposed, the width will usually be a max-width of 650px. a specific nice thing about not having a global width is that some elements can take up the entire width of the page which can be useful with background-colors or text placement that may need to be the width of the document rather than the width imposed on the body
+
+### centering
+
+this is another issue where bdefaultsm differs from other like sheets. while i do think a nice readable width centered on the page looks nice for many websites, i don't think that's how all websites need to look. i can also think of some reasons why one might want only certain parts of the site centered in the browser while other parts are outside of that centering. i've also seen non-centered sites that i like, and adding centering is not all that hard. just add width and auto margin to the body if you want it so bad. i'm leaving it out of bdefaultsm because i foresee situations in which i might not use it, and would like the choice
+
 ## html
 
 the index.html page could also be an example of how i currently think a straightfoward html page should be structured
