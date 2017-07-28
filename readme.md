@@ -13,13 +13,9 @@ the idea appeals to me. if i were developing my own browser and were able to mak
 
 bdefaultsm.css is my attempt at this
 
-## version 1 -> version 2
+## version 3
 
-at first i thought i'd combine a normalize css sheet with my changes to the sakura css sheet. what i was left with would be an opinionated css reset
-
-i don't think that's a good idea anymore as a reset or normalizer sheet has a different purpose than a classless style sheet. a normalizer is an attempt to fix default discrepencies between browsers, while a classless style sheet is an attempt to add some opinions to how html elements should look
-
-i've decided now to use a normalizer sheet and then build bdefaultsm on top of it. that way, i get the benefits of a resetter or normalizer while keeping my own style opinions separate. this might also encourage anyone looking to do the same to go about it in the same way that i have. css reset work is important, and should probably be separate from establishing default html styles
+i've decided to remove the normalize css file after reading (actually skimming, and maybe i shouldn't be this easily swayed by arguments or maybe it just means i never really liked the idea of using a normalize for this project in the first place and i just did because i thought i should because that's what people do)
 
 ## opinionated
 
