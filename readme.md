@@ -48,3 +48,7 @@ the index.html page could also be an example of how i currently think a straight
 ### line-height
 
 ### space between elements
+
+### lists
+
+when i write lists by hand, i bullet them with a hyphen. the same goes for markdown. i've never taken the time to fill-in a little circle to make a bullet point when i make a list. so, since this is an opinionated stylesheet, i've decided to make unordered lists have a hyphen instead of a bullet point
