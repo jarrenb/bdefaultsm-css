@@ -13,6 +13,10 @@ the idea appeals to me. if i were developing my own browser and were able to mak
 
 bdefaultsm.css is my attempt at this
 
+## for a future version of this more useful than i expected tool
+
+having a catch-all css stylesheet doesn't really make sense. i may not need or want form styles on my page if my page doesn't have any forms. i do like the idea of classless styles, but only when i need them. so i think for the next version of bdefaultsm, i'll try and implement some of the ideas that come from an attempt to make bdefaultsm more modular. i like the idea of if i add a p tag to some html, then maybe a bdefaultsm script automatically adds its p styles to my stylesheet; and vice versa: if i remove the last p tag from my html, bdefaultsm knows i don't need those sweet sweet p styles anymore and removes them automatically from my stylesheet. i may not have the skillz to implement this until much farther down the road, but it's a cool goal to set i think
+
 ## version 3
 
 i've decided to remove the normalize css file after reading (actually skimming, and maybe i shouldn't be this easily swayed by arguments or maybe it just means i never really liked the idea of using a normalize for this project in the first place and i just did because i thought i should because that's what people do) [this article](https://meiert.com/en/blog/stop-using-resets/)
