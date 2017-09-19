@@ -45,6 +45,11 @@ h6 {
   font-size: 1rem; 
 }
 
+/* paragraphs */
+p {
+  max-width: 35rem;
+}
+
 /* lists */
 ol {
   padding-left: 1.4rem;
@@ -203,4 +208,5 @@ blockquote {
   margin-left: 0;
   padding-left: 1rem;
   border-left: .25rem solid black;
+  max-width: 34rem;
 }
