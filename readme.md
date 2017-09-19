@@ -1,4 +1,4 @@
-bdefaultsm css v2.0
+bdefaultsm css v3.0
 ==============
 
 in my on-line wanderings i came across a github project called sakura made by a person name oxalorg. the idea being a classless css stylesheet to instantly give style to an html page that had nothing but vanilla html and no classes or ids or anything else
@@ -20,6 +20,8 @@ having a catch-all css stylesheet doesn't really make sense. i may not need or w
 ## version 3
 
 i've decided to remove the normalize css file after reading (actually skimming, and maybe i shouldn't be this easily swayed by arguments or maybe it just means i never really liked the idea of using a normalize for this project in the first place and i just did because i thought i should because that's what people do) [this article](https://meiert.com/en/blog/stop-using-resets/)
+
+i've switched all "em" units and "px" units to rem and set the font-size of html to 18px because 18px is dope
 
 ## opinionated
 
