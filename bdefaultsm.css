@@ -109,7 +109,7 @@ a {
 }
   
 a:hover {
-  border-bottom: .25rem solid #0366d6;
+  border-bottom: .1rem solid #0366d6;
 }
 
 textarea, select {
@@ -126,35 +126,32 @@ textarea:focus, select:focus {
   border: .25rem solid #0366d6;
   outline: 0; 
 }
- 
+
 button, 
 input[type="submit"], 
 input[type="reset"], 
 input[type="button"] {
-  display: inline-block;
-  padding: 1rem 2rem;
+  padding: .25rem .5rem;
   text-align: center;
-  text-decoration: none;
-  white-space: nowrap;
-  background-color: white;
-  border: .25rem solid #0366d6;
-  cursor: pointer;
-  box-sizing: border-box;
-  color: #0366d6;
+  background-color: #0366d6;
+  color: white;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: .25rem;
+  box-shadow: 0 .1rem .1rem #aaa;
+  border-width: 0;
 }
  
-button:focus, 
-button:hover, 
-input[type="submit"]:focus, 
-input[type="submit"]:hover, 
-input[type="reset"]:focus, 
-input[type="reset"]:hover, 
-input[type="button"]:focus, 
+button:hover,  
+input[type="submit"]:hover,  
+input[type="reset"]:hover,  
 input[type="button"]:hover {
-  background-color: #0366d6;
-  border-color: #0366d6;
+  background-color: #004EA6;
   color: white;
-  outline: 0; 
+}
+
+button:active {
+  box-shadow: 0 0 0;
 }
 
 /* disabled buttons should look kind of broken, and shouldn't do anything */ 
@@ -204,6 +201,6 @@ blockquote {
   font-style: italic;
   margin-left: 0;
   padding-left: 1rem;
-  border-left: .25rem solid black;
+  border-left: .25rem solid #0366d6;
   max-width: 34rem;
 }
