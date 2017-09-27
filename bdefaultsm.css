@@ -15,6 +15,7 @@ html {
 
 body {
   margin: 1rem;
+  color: #111;
 }
 
 /* h1, h2, h3, h4, h5, h6 */
@@ -104,12 +105,15 @@ caption {
 
 /* buttons, forms, inputs, and links */
 a {
-  color: #0366d6;
   text-decoration: none;
+  border-bottom: .1rem solid #0366d6;
+  color: #111;
+  transition: all 100ms cubic-bezier(0.4, 0, 0.2, 1);
 }
   
 a:hover {
-  border-bottom: .1rem solid #0366d6;
+  background-color: #0366d6;
+  color: #fff;
 }
 
 textarea, select {

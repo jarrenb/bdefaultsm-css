@@ -52,3 +52,13 @@ the index.html page could also be an example of how i currently think a straight
 ### lists
 
 when i write lists by hand, i bullet them with a hyphen. the same goes for markdown. i've never taken the time to fill-in a little circle to make a bullet point when i make a list. so, since this is an opinionated stylesheet, i've decided to make unordered lists have a hyphen instead of a bullet point
+
+## links
+
+the color of the text of a link stays the same as the color of all the other text on the page. the link is underlined with a border-bottom, rather than the text-decoration of underline. the border-bottom is the color blue which falls sort of inline with the default color of links used by all browsers. the border-bottom and its blue color indicate that the text is a link
+
+on hover, the background color of the text changes to the same color blue of the border-bottom; because the blue is so dark, i have the text color change to white
+
+i like this way of doing things because it makes links stand out, but not draw too much attention to themselves, while still being easily identifiable as links. and then when the user hovers over the link, all doubt as to whether it was a link is completely removed and the link becomes something more like a button in its style
+
+i got the idea to do it this way from the gatsbyjs.org (specifically the tutorial)
