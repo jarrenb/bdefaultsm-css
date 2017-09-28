@@ -90,7 +90,8 @@ pre {
 
 /* tables */
 table {
-  border-collapse: collapse; 
+  border-collapse: collapse;
+  margin-bottom: 1rem;
 }
 
 td, th {
