@@ -49,6 +49,12 @@ the index.html page could also be an example of how i currently think a straight
 
 ### space between elements
 
+i read somewhere someone's css technique of removing any margin top that an element might have and only using margin-bottom or margin-right for element spacing for the frontend of their pages. i like this idea and i've begun implementing it a little bit in my own projects, and now i've begun implementing it in this project
+
+as of right now, 9/28/2017, i've only explicitly removed the margin-top from all h tags (h1, h2, h3, etc...) and both unordered and ordered list tags. i removed margin-top from these elements and set margin-bottom to 1rem
+
+this will be what i do for the rest of the elements as i come across them, unless of course i have to implement it a little bit different for whatever reason, in which case i'll come back here and document it
+
 ### lists
 
 when i write lists by hand, i bullet them with a hyphen. the same goes for markdown. i've never taken the time to fill-in a little circle to make a bullet point when i make a list. so, since this is an opinionated stylesheet, i've decided to make unordered lists have a hyphen instead of a bullet point
