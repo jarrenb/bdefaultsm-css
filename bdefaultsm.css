@@ -116,8 +116,7 @@ a {
 }
   
 a:hover {
-  background-color: #0366d6;
-  color: #fff;
+  background-color: rgb(3, 102, 214, .2) /* blue, 0366d6 */;
 }
 
 textarea, select {
